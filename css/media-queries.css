@@ -1,0 +1,713 @@
+@media screen and (max-width: 1050px){
+    .swiper{
+        height: 350px;
+    }
+    .img-promo{
+        width: 90%;
+        height: 85%;
+        object-fit: fill;
+    }
+    .hero-bottom-ops{
+        bottom: -65px;
+        z-index: 100;
+    }
+    .hero-bottom-ops .hero-option{
+        padding: 20px 30px;
+        font-size: 1.1rem;
+    }
+    .concepto .section-content .left-content{
+        flex: 0.4;
+        top: 150px;
+    }
+    .concepto .section-content .right-content{
+        flex: 0.6;
+        padding-top: 3rem;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-auto-rows: 200px;
+        gap: 15px;
+    }
+    .section-title{
+        font-size: 1.8rem;
+    }
+    .section-text{
+        padding-right: 15px;
+        font-size: 1rem;
+        line-height: 1.8;
+        text-align: justify;
+    }
+    .section.encuentranos .section-header .section-title{
+       font-size: 2rem;
+    }
+    .section.encuentranos .section-content .map{
+        width: 650px;
+        height: auto;
+        align-self: stretch;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+        outline: 2px solid var(--primary-black-color);
+    }
+    .location-data .location-title{
+        font-size: 1.3rem;
+    }
+    .location-data .location-text{
+        font-size: 1rem;
+    }
+    .section.contacto{
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+    }
+    .section.contacto .section-content{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .section.contacto .left-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: fit-content;
+    }
+    .section.contacto .left-content .little-title{
+        font-size: 2rem;
+        padding-bottom: 20px;
+        text-align: left;
+        width: 100%;
+    }
+    .section.contacto .left-content .contact-links{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: 20px;
+        row-gap: 40px;
+    }
+    .contact-links i{
+        margin-right: 8px;
+    }
+    .contact-links .c-link{
+        font-size: 1.3rem;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: var(--primary-black-color);
+        border: 2px solid var(--primary-black-color);
+    }
+    .section.contacto .left-content .little-logo-img{
+        display: none;
+    }
+    .section.contacto .middle-space{
+        display: none;
+    }
+    .section.contacto .right-content{
+        height: fit-content;
+        padding: 0;
+    }
+    .section.contacto .right-content .little-title{
+        padding: 0;
+    }
+    .section.contacto .right-content .little-text{
+        font-size: 1.03rem;
+        font-weight: 400;
+        line-height: 1.8;
+    }
+    /* Nosotros */
+    .main-image{
+        height: 150px;
+        object-position: 50% 55%;
+    }
+    .section.nosotros .content .title-section{
+        padding: 1rem;
+        font-size: 1.8rem;
+    }
+
+    /* Menu */
+    .food-section .food-title .food-name{
+        font-size: 2.1rem;
+    }
+    .food-section .food-cards{
+        gap: 30px;
+    }
+    .food-cards .dish{
+        width: 350px;
+        padding: 2rem 1.5rem;
+        padding-bottom: 6rem;
+    }
+
+    /* Ubicaciones */
+    .main-image{
+        height: 120px;
+    }
+    .section.ubicaciones .ubi-cards{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .ubi-cards .u-card{
+        width: 350px;
+        padding: 1.2rem;
+        padding-bottom: 2.5rem;
+        align-self: stretch;
+    }
+    .u-card .card-title{
+        font-size: 1.3rem;
+        padding: 0.7rem;
+    }
+    .u-card .card-text{
+        font-size: 1rem;
+    }
+    .overlay{
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100vw;
+        height: 220vh;
+        background-color: #000000e2;
+        z-index: 50;
+    }
+}
+
+@media screen and (max-width: 970px){
+    .concepto .section-content .left-content{
+        flex: 0.5;
+    }
+    .concepto .section-content .right-content{
+        flex: 0.5;
+    }
+    .pasta-img{
+        grid-row: span 2;
+    }
+    .section-title{
+        font-size: 1.9rem;
+    }
+    .section-text{
+        font-size: 1.05rem;
+        line-height: 1.9;
+        text-align: left;
+    }
+    .section.encuentranos .section-header .section-title{
+       font-size: 2rem;
+    }
+    .section.encuentranos .section-content .map{
+        width: 600px;
+        height: auto;
+        align-self: stretch;
+    }
+    .location-data .location-title{
+        font-size: 1.5rem;
+    }
+    .location-data .location-text{
+        font-size: 1.05rem;
+    }
+    .location-data .location-contact a, li{
+        font-size: 1.1rem;
+    }
+    .location-buttons .loc-btn.left{
+        margin-right: 20px;
+    }
+    .location-buttons .loc-btn i{
+        font-size: 22px;
+    }
+    .location-buttons .loc-btn:hover i{
+        font-size: 25px;
+    }
+    /* Nosotros */
+    .link-options .option-link{
+        font-size: 1.1rem;
+    }
+    .section.nosotros .content .title-section{
+        padding: 1rem;
+        font-size: 1.8rem;
+    }
+    .inner-content .right-content .content-img{
+        height: 400px;
+    }
+
+    /* Menu */
+    .food-section .food-cards{
+        gap: 30px;
+    }
+    .food-cards .dish{
+        width: 280px;
+        padding: 2rem 1.5rem;
+        padding-bottom: 6rem;
+    }
+
+    /* Ubicaciones */
+    .main-image{
+        height: 120px;
+    }
+    .section.ubicaciones .ubi-cards{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: flex-start;
+        justify-content: center;
+        scroll-margin-top: 150px;
+    }
+    
+    .ubi-cards .u-card{
+        width: 350px;
+        padding: 1.2rem;
+        padding-bottom: 2.5rem;
+        align-self: stretch;
+    }
+    .u-card .card-title{
+        font-size: 1.3rem;
+        padding: 0.7rem;
+    }
+    .u-card .card-text{
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 850px){
+    .concepto .section-content .left-content{
+        flex: 0.6;
+    }
+    .concepto .section-content .right-content{
+        flex: 0.4;
+    }
+    .pasta-img{
+        grid-row: span 1;
+    }
+    .section-title{
+        font-size: 1.8rem;
+    }
+    .section-text{
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+    .section.encuentranos .section-header .section-title{
+       font-size: 2rem;
+    }
+    .section.encuentranos .section-content{
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+    }
+    .section.encuentranos .section-content .map{
+        width: 100%;
+        height: 300px;
+        align-self: auto;
+    }
+    .section.encuentranos .section-content .location-data{
+        width: 100%;
+        height: auto;
+        padding-bottom: 2rem;
+        position: static;
+    }
+    .location-data .location-title{
+        font-size: 1.55rem;
+    }
+    .location-data .location-text{
+        font-size: 1.1rem;
+    }
+    .location-data .location-contact a, li{
+        font-size: 1.15rem;
+    }
+    .location-data .location-buttons{
+        top: 25%;
+        left: 0;
+        bottom: auto;
+        right: auto;
+        transform: translateX(0);
+        width: 100%;
+        background-color: #48e;
+        display: flex;
+    }
+    .location-buttons .loc-btn{
+        width: 60px;
+        height: 60px;
+    }
+    .location-buttons .loc-btn.left{
+        position: absolute;
+        left: 15px;
+        top: 0;
+        z-index: 1000;
+    }
+    .location-buttons .loc-btn.right{
+        position: absolute;
+        right: 15px;
+        top: 0;
+        z-index: 1000;
+    }
+    .location-buttons .loc-btn i{
+        font-size: 22px;
+    }
+    .location-buttons .loc-btn:hover{
+        width: 75px;
+    }
+    .location-buttons .loc-btn:hover i{
+        font-size: 22px;
+    }
+    .section.contacto{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .section.contacto .left-content .little-title{
+        font-size: 1.9rem;
+        padding-bottom: 10px;
+    }
+    .section.contacto .left-content .contact-links{
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .contact-links .c-link{
+        font-size: 1.2rem;
+        padding: 10px 15px;
+        border-radius: 10px;
+        color: var(--primary-black-color);
+        border: 2px solid var(--primary-black-color);
+    }
+    .section.contacto .right-content .little-title{
+        font-size: 1.55rem;
+    }
+    .section.contacto .right-content .little-text{
+        font-size: 1.05rem;
+    }
+    /* Nosotros */
+    .section.nosotros .aside-section{
+        flex: 0.3;
+    }
+    .section.nosotros .content{
+        flex: 0.7;
+    }
+    .section.nosotros .content .inner-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .inner-content .left-content{
+        flex: auto;
+    }
+    .inner-content .right-content{
+        flex: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .link-options .option-link{
+        font-size: 1.1rem;
+    }
+    .section.nosotros .content .title-section{
+        padding: 1rem;
+        font-size: 1.8rem;
+    }
+    .inner-content .right-content .content-img{
+        position: static;
+        height: 300px;
+        width: 80%;
+        box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    }
+
+    /* Menu */
+    .section.menu{
+        padding: 3rem 5rem;
+    }
+    .food-section .food-cards{
+        gap: 20px;
+        row-gap: 40px;
+    }
+    .food-cards .dish{
+        width: 280px;
+        padding: 1.5rem;
+    }
+    .dish .dish-name{
+        font-size: 1.45rem;
+        margin-bottom: 15px;
+    }
+    .dish .food-des{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .dish .food-price{
+        position: absolute;
+        bottom: auto;
+        right: 5px;
+        top: -25px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        background-color: #fff;
+        border: 1.5px solid var(--primary-black-color);
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    /* Ubicaciones */
+    .main-image{
+        height: 100px;
+    }
+    .section.ubicaciones .ubi-cards{
+        scroll-margin-top: 150px;
+    }
+    
+    .ubi-cards .u-card{
+        width: 350px;
+        align-self: auto;
+    }
+    .u-card .card-title{
+        font-size: 1.5rem;
+        padding: 0.7rem;
+    }
+    .u-card .card-text{
+        font-size: 1.1rem;
+    }
+    .u-card .card-data li, a{
+        font-size: 1.05rem;
+    }
+    /* Footer */
+    .footer .top-footer-section .footer-links{
+        gap: 30px;
+    }
+    .footer-links .footer-link{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 725px){
+    .section.concepto{
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    .section.concepto .section-content{
+        gap: 20px;
+        flex-direction: column;
+    }
+    .concepto .section-content .left-content{
+        flex: auto;
+        top: 80px;
+        background-color: #FEFEFE;
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+    .concepto .section-content .right-content{
+        flex: auto;
+    }
+    .pasta-img{
+        grid-row: span 1;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .section.concepto{
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    .ocultable{
+        display: none;
+    }
+    .section.concepto .section-content{
+        gap: 0px;
+    }
+    .section.encuentranos{
+        padding: 2rem 2rem;
+    }
+    .location-data .location-buttons{
+        top: 24%;
+    }
+    .location-buttons .loc-btn{
+        width: 50px;
+        height: 50px;
+    }
+    .location-buttons .loc-btn.left{
+        left: 13px;
+    }
+    .location-buttons .loc-btn.right{
+        right: 13px;
+    }
+    .section.encuentranos .section-content{
+       padding: 2.5rem;
+    }
+    .section.contacto{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .footer .top-footer-section .footer-links{
+        gap: 30px;
+    }
+    .footer-links .footer-link{
+        font-size: 1.2rem;
+    }
+    .footer .top-footer-section{
+        width: 100%;
+        padding: 50px 20px;
+    }
+    .footer .top-footer-section .footer-links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .footer-links .footer-link{
+        font-size: 1.1rem;
+    }
+    .footer .bottom-footer-section .creator{
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+}
+
+@media screen and (max-width: 530px){
+    .footer .top-footer-section .footer-links{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .footer-links .footer-link{
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    /* Nosotros */
+    .section.nosotros{
+        padding-top: 1rem;
+    }
+    .open-menu-button{
+        display: block;
+    }
+    .section.nosotros .aside-section{
+        z-index: 1000;
+        position: absolute;
+        top: -100px;
+        left: -100%;
+        height: 100%;
+        width: 250px;
+        padding: 3rem 2rem;
+        flex: auto;
+        background-color: #fff;
+    }
+    .section.nosotros .aside-section .link-options{
+        top: 40px;
+    }
+    .link-options .option-link{
+        font-size: 1.2rem;
+    }
+    .section.nosotros .content{
+        flex: auto;
+    }
+    .section.nosotros .content .title-section{
+        padding: 2rem 1rem;
+        font-size: 1.8rem;
+        position: sticky;
+        top: 100px;
+        background-color: #FEFEFE;
+        margin: 0;
+    }
+    /* Menu */
+    .section.menu{
+        padding: 3rem;
+    }
+    .food-cards .dish{
+        width: 300px;
+        padding: 1.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 450px){
+    .whatsapp-btn{
+        right: 5px;
+    }
+    .navbar{
+        padding: 1.5rem;
+    }
+    .navbar .logo{
+        gap: 10px;
+    }
+    .swiper .swiper-button-prev:hover::after, .swiper-button-next:hover::after{
+        background-color: var(--primary-black-color);
+        color: #fefefe;
+    }
+    .swiper .swiper-button-prev:active::after, .swiper-button-next:active::after{
+        background-color: var(--primary-black-color);
+        color: #fefefe;
+    }
+    .swiper .swiper-button-prev:active::after, .swiper-button-next:active::after{
+        background-color: var(--primary-black-color);
+        color: #fefefe;
+    }
+    .hero-bottom-ops .hero-option{
+        padding: 20px 15px;
+    }
+    .section.concepto{
+        padding: 2.5rem 2rem;
+    }
+    .section-title{
+        font-size: 1.8rem;
+    }
+    .section-text{
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    .menu-btn {
+        padding: 10px 50px;
+        font-size: 1.2rem;
+    }
+    .section.encuentranos{
+        padding: 2rem 1rem;
+    }
+    .section.encuentranos .section-content{
+       padding: 2.5rem 1rem;
+    }
+    .location-buttons .loc-btn.left{
+        left: -9px;
+    }
+    .location-buttons .loc-btn.right{
+        right: -9px;
+    }
+    .location-buttons .loc-btn.right i{
+        color: var(--primary-black-color);
+    }
+    .location-buttons .loc-btn:hover{
+        width: 50px;
+    }
+    .section.contacto{
+        padding: 0 2rem;
+        padding-bottom: 3rem;
+    }
+    /* Nosotros */
+    .section.nosotros .content .title-section{
+        padding: 1.5rem 1rem;
+        font-size: 1.7rem;
+    }
+    .close-menu-button{
+        position: absolute;
+        top: -30px;
+        right: -30px;
+        color: var(--primary-black-color);
+    }
+    .link-options .option-link{
+        font-size: 1.2rem;
+    }
+    /* Ubicaciones */
+    .section.ubicaciones{
+        padding: 2.5rem 2rem;
+        padding-bottom: 5rem;
+    }
+    .ubi-cards .map-frame{
+        width: 350px;
+        padding: 2rem 1rem;
+    }
+    .map-frame .frame-title{
+        font-size: 1.5rem;
+    }
+    .map-frame .escape{
+        top: 10px;
+        right: 10px;
+        color: var(--primary-black-color);
+    }
+    
+}

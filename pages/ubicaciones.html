@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nosotros">
+    <meta name="author" content="Héctor Arturo Sandoval Cervantes">
+    <title>Harvey's | Ubicaciones</title>
+
+    <link rel="icon" href="../images/logo-img.png"/>
+
+    <!-- Google Fonts link - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/ubicaciones.css">
+    <link rel="stylesheet" href="../css/media-queries.css">
+    <link rel="stylesheet" href="../css/interactions.css">
+
+    <script defer src="../js/ubicaciones.js"></script>
+    <script defer src="../js/header.js"></script>
+</head>
+<body>
+    <div id="overlay" class="overlay hidden"></div>
+    <header class="header">
+        <nav class="navbar">
+            <a class="logo" href="../index.html#"><img class="logo-img" src="../images/logo-img.png" alt="Logo image"><h1 class="logo-name">Harvey's</h1></a>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <label id="overlay" for="sidebar-active"></label>
+
+            <ul class="nav">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                <li class="nav-item"><a href="../index.html">Inicio</a></li>
+                <li class="nav-item"><a href="./nosotros.html">Nosotros</a></li>
+                <li class="nav-item"><a href="./menu.html">Menú</a></li>
+                <li class="nav-item"><a href="#">Ubicaciones</a></li>
+                <li class="nav-item"><a href="../index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <a class="whatsapp-btn" href="../index.html"><img src="../images/whatsapp-logo.webp" alt="Logo"></a>
+        <img class="main-image" src="../images/ubicaciones-banner.webp" alt="Imagen del equipo">
+        <section class="section ubicaciones">
+            <div class="section-title">
+                <h3 class="title">Nuestras ubicaciones</h3>
+            </div>
+            <div id="cardContainer" class="ubi-cards">
+                <div id="mapFrame" class="map-frame hidden">
+                    <button id="escapeBtn" class="escape"><i class="fa-solid fa-xmark"></i></button>
+                    <h5 id="placeName" class="frame-title"></h5>
+                    <iframe id="iframeMap" class="map" id="mapaAMostrar" src=""></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="top-footer-section">
+            <div class="footer-links">
+                <a class="footer-link" href="../index.html">Inicio</a>
+                <a class="footer-link" href="./nosotros.html">Nosotros</a>
+                <a class="footer-link" href="./menu.html">Menú</a>
+                <a class="footer-link" href="#">Ubicaciones</a>
+                <a class="footer-link" href="../index.html#contacto">Contacto</a>
+            </div>
+        </div>
+        <div class="bottom-footer-section">
+            <p class="copyright-text">&copy; 2025 Derechos Reservados</p>
+            <a class="creator" href="#">Arturo Sandoval</a>
+        </div>
+    </footer>
+</body>

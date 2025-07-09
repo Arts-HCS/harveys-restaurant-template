@@ -1,0 +1,23 @@
+{
+    "location1":{
+        "placeName": "Residence Halls Unit 1",
+        "address": "2650 Durant Ave, Berkeley, CA 94720, Estados Unidos",
+        "phoneNumber":"+52 55 3721 3386",
+        "schedule":"Lun. a Dom. de 8 a 22 hrs.",
+        "mapURLsrc":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.664398560282!2d-122.25777442397538!3d37.86814227196193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c2fb4bddb17%3A0x837acf26ec0e6cd9!2sResidence%20Halls%20Unit%201!5e0!3m2!1ses!2smx!4v1750916198610!5m2!1ses!2smx"
+    },
+    "location2":{
+        "placeName":"UC Berkeley Student Union",
+        "address":"2495 Bancroft Way, Berkeley, CA 94720, Estados Unidos",
+        "phoneNumber":"+52 5374 8824",
+        "schedule":"Lun. a Vie. de 8 a 20 hrs.",
+        "mapURLsrc":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1650.881203499374!2d-122.25968396749917!3d37.869591418491936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c25fd15163f%3A0xd8ee08380d3e2d14!2sUC%20Berkeley%20Student%20Union%3A%20Martin%20Luther%20King%20Jr.%20Building!5e0!3m2!1ses!2smx!4v1751336454059!5m2!1ses!2smx"
+    },
+    "location3":{
+        "placeName":"The Campanile",
+        "address":"Sather Tower, Berkeley, CA 94720, Estados Unidos",
+        "phoneNumber":"+52 55 3721 3386",
+        "schedule":"Lun. a Dom. de 10 a 16 hrs.",
+        "mapURLsrc":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1650.8268938495335!2d-122.25997076995645!3d37.87201524098229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c244eed59ab%3A0x680cbd5dff69002d!2sThe%20Campanile!5e0!3m2!1ses!2smx!4v1751336577316!5m2!1ses!2smx"
+    }
+}

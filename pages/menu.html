@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Menu">
+    <meta name="author" content="Héctor Arturo Sandoval Cervantes">
+    <title>Harvey's | Menu</title>
+
+    <link rel="icon" href="../images/logo-img.png"/>
+
+    <!-- Google Fonts link - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/media-queries.css">
+    <link rel="stylesheet" href="../css/interactions.css">
+
+    <script defer src="../js/header.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a class="logo" href="../index.html#"><img class="logo-img" src="../images/logo-img.png" alt="Logo image"><h1 class="logo-name">Harvey's</h1></a>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <label id="overlay" for="sidebar-active"></label>
+
+            <ul class="nav">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                <li class="nav-item"><a href="../index.html">Inicio</a></li>
+                <li class="nav-item"><a href="./nosotros.html">Nosotros</a></li>
+                <li class="nav-item"><a href="#">Menú</a></li>
+                <li class="nav-item"><a href="./ubicaciones.html">Ubicaciones</a></li>
+                <li class="nav-item"><a href="../index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section menu">
+            <div class="food-section">
+                <div class="food-title">
+                    <h3 class="food-name">Gli Antipasti</h3>
+                </div>
+                <div class="food-cards">
+                    <div class="dish">
+                        <h5 class="dish-name">Bruschetta Classica</h5>
+                        <p class="food-des">Pan rústico con jitomate, ajo, albahaca fresca y aceite de oliva extra virgen.</p>
+                        <p class="food-price">$139</p>
+                    </div>
+                    <div class="dish">
+                        <h5 class="dish-name">Burrata e Pomodorini</h5>
+                        <p class="food-des">Burrata cremosa con jitomates cherry y pesto de albahaca.</p>
+                        <p class="food-price">$279</p>
+                    </div>
+                    <div class="dish">
+                        <h5 class="dish-name">Carpaccio di Manzo</h5>
+                        <p class="food-des">Láminas de res marinadas con limón, alcaparras, parmesano y rúcula.</p>
+                        <p class="food-price">$259</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Primi Piatti -->
+            <div class="food-section">
+                <div class="food-title">
+                    <h3 class="food-name">I Primi</h3>
+                </div>
+                <div class="food-cards">
+                    <div class="dish">
+                        <h5 class="dish-name">Tagliatelle al Ragù</h5>
+                        <p class="food-des">Pasta fresca con salsa boloñesa tradicional de carne y tomate.</p>
+                        <p class="food-price">$249</p>
+                    </div>
+                    <div class="dish">
+                        <h5 class="dish-name">Risotto ai Funghi</h5>
+                        <p class="food-des">Arroz cremoso con mezcla de hongos y un toque de parmesano.</p>
+                        <p class="food-price">$269</p>
+                    </div>
+                    <div class="dish">
+                        <h5 class="dish-name">Lasagna alla Bolognese</h5>
+                        <p class="food-des">Capas de pasta con ragù, bechamel y queso gratinado.</p>
+                        <p class="food-price">$259</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Secondi Piatti -->
+            <div class="food-section">
+                <div class="food-title">
+                    <h3 class="food-name">I Secondi</h3>
+                </div>
+                <div class="food-cards">
+                    <div class="dish">
+                        <h5 class="dish-name">Pollo alla Cacciatora</h5>
+                        <p class="food-des">Muslos de pollo estofados con vino, aceitunas, jitomate y romero.</p>
+                        <p class="food-price">$299</p>
+                    </div>
+                    <div class="dish">
+                        <h5 class="dish-name">Branzino al Limone</h5>
+                        <p class="food-des">Filete de lubina cocinado al horno con limón, ajo y perejil.</p>
+                        <p class="food-price">$319</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contorni -->
+            <div class="food-section">
+                <div class="food-title">
+                    <h3 class="food-name">I Contorni</h3>
+                </div>
+                <div class="food-cards">
+                    <div class="dish">
+                        <h5 class="dish-name">Patate al Forno</h5>
+                        <p class="food-des">Papas horneadas con romero y aceite de oliva.</p>
+                        <p class="food-price">$99</p>
+                    </div>
+                    <div class="dish">
+                        <h5 class="dish-name">Insalata Verde</h5>
+                        <p class="food-des">Ensalada de hojas verdes con vinagreta balsámica.</p>
+                        <p class="food-price">$89</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dolci -->
+            <div class="food-section">
+                <div class="food-title">
+                    <h3 class="food-name">I Dolci</h3>
+                </div>
+                <div class="food-cards">
+                    <div class="dish">
+                        <h5 class="dish-name">Tiramisù</h5>
+                        <p class="food-des">Postre clásico con capas de bizcocho, café y mascarpone.</p>
+                        <p class="food-price">$149</p>
+                    </div>
+                    <div class="dish">
+                        <h5 class="dish-name">Panna Cotta</h5>
+                        <p class="food-des">Flan de crema servido con coulis de frutos rojos.</p>
+                        <p class="food-price">$139</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bevande -->
+            <div class="food-section">
+                <div class="food-title">
+                    <h3 class="food-name">Le Bevande</h3>
+                </div>
+                <div class="food-cards">
+                    <div class="dish">
+                        <h5 class="dish-name">Acqua Frizzante</h5>
+                        <p class="food-des">Agua mineral italiana con gas.</p>
+                        <p class="food-price">$49</p>
+                    </div>
+                    <div class="dish">
+                        <h5 class="dish-name">Limonata Artigianale</h5>
+                        <p class="food-des">Limonada casera con limón fresco y menta.</p>
+                        <p class="food-price">$59</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="top-footer-section">
+            <div class="footer-links">
+                <a class="footer-link" href="../index.html">Inicio</a>
+                <a class="footer-link" href="./nosotros.html">Nosotros</a>
+                <a class="footer-link" href="#">Menú</a>
+                <a class="footer-link" href="./ubicaciones.html">Ubicaciones</a>
+                <a class="footer-link" href="../index.html#contacto">Contacto</a>
+            </div>
+        </div>
+        <div class="bottom-footer-section">
+            <p class="copyright-text">&copy; 2025 Derechos Reservados</p>
+            <a class="creator" href="#">Arturo Sandoval</a>
+        </div>
+    </footer>
+</body>

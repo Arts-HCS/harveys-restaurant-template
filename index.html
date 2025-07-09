@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta es una página de muestra. No forma parte de ningún negocio.">
+    <meta name="author" content="Héctor Arturo Sandoval Cervantes">
+    <title>Harvey's | Incicio</title>
+
+    <link rel="icon" href="./images/logo-img.png"/>
+
+    <!-- Google Fonts link - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Swiper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/interactions.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="./js/script.js"></script>
+    <script defer src="./js/header.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a class="logo" href="#"><img class="logo-img" src="./images/logo-img.png" alt="Logo image"><h1 class="logo-name">Harvey's</h1></a>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <label id="overlay" for="sidebar-active"></label>
+            <ul class="nav">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                <li class="nav-item"><a href="#">Inicio</a></li>
+                <li class="nav-item"><a href="./pages/nosotros.html">Nosotros</a></li>
+                <li class="nav-item"><a href="./pages/menu.html">Menú</a></li>
+                <li class="nav-item"><a href="./pages/ubicaciones.html">Ubicaciones</a></li>
+                <li class="nav-item"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <a class="whatsapp-btn" href="#"><img src="./images/whatsapp-logo.webp" alt=""></a>
+        <section class="section hero">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide first-promo">
+                    <img class="img-promo" src="/images/promocao1.webp" alt="Promoción 1">
+                  </div>
+                  <div class="swiper-slide second-promo">
+                    <img class="img-promo" src="./images/promocao2.webp" alt="Promoción 2">
+                  </div>
+                  <div class="swiper-slide third-promo">
+                    <img class="img-promo" src="./images/promocao3.webp" alt="Promoción 3">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="hero-bottom-ops">
+                <a class="hero-option left-btn" href="#">Reservar</a>
+                <a class="hero-option" href="#">Facturaciones</a>
+            </div>
+        </section>
+        <section class="section concepto">
+            <div class="section-content">
+                <div class="left-content">
+                    <h2 class="section-title mb">Conoce nuestro menú</h2>
+                    <p class="section-text mb">En Harvey's, nos apasiona ofrecerte una experiencia culinaria inolvidable. Nuestro menú ha sido cuidadosamente diseñado para combinar sabores tradicionales con un toque moderno, utilizando ingredientes frescos y de la más alta calidad. <br><span class="ocultable">Ya sea que busques algo ligero o un platillo más elaborado, aquí encontrarás opciones para todos los gustos. ¡Te invitamos a descubrir cada sabor y disfrutar cada momento!</span></p>
+                    <a class="menu-btn" href="./pages/menu.html">Ver menú<i class="fa-solid fa-utensils"></i></a>
+                </div>
+                <div class="right-content">
+                    <img class="pasta-img tall" src="./images/pasta1.jpg" alt="Pasta 1">
+                    <img class="pasta-img" src="./images/pasta2.jpg" alt="Pasta 2">
+                    <img class="pasta-img tall" src="./images/pasta3.webp" alt="Pasta 3">
+                    <img class="pasta-img" src="./images/pasta4.jpeg" alt="Pasta 4">
+                </div>
+            </div>
+        </section>
+        <section class="section encuentranos">
+            <div class="section-header">
+                <h3 class="section-title">Encuéntranos</h3>
+            </div>
+            <div class="section-content">
+                <iframe id="DocMap" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.664398560282!2d-122.25777442397538!3d37.86814227196193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c2fb4bddb17%3A0x837acf26ec0e6cd9!2sResidence%20Halls%20Unit%201!5e0!3m2!1ses!2smx!4v1750916198610!5m2!1ses!2smx" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="location-data">
+                    <h4 id="DocPlaceName" class="location-title">Residence Halls Unit 1</h4>
+                    <p id="DocAddress" class="location-text">2650 Durant Ave, Berkeley, CA 94720, Estados Unidos</p>
+                    <ul class="location-contact">
+                        <li><i class="fa-solid fa-phone"></i><a id="DocPhoneNumber" href="#">+52 55 3721 3386</a></li>
+                        <li><i class="fa-solid fa-clock"></i><span id="DocSchedule">Lun. a Dom. de 8 a 22 hrs.</span></li>
+                    </ul>
+                    <div class="location-buttons">
+                        <button id="leftLocation" class="loc-btn left"><i class="fa-solid fa-arrow-left"></i><button>
+                        <button id="rightLocation" class="loc-btn right"><i class="fa-solid fa-arrow-right"></i><button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="section contacto">
+            <div class="section-content">
+                <div class="left-content">
+                    <h4 class="little-title">Contacto</h4>
+                    <ul class="contact-links">
+                        <li><a class="c-link" href="#"><i class="fa-solid fa-envelope"></i>artssc925@gmail.com</a></li>
+                        <li><a class="c-link" href="#"><i class="fa-solid fa-phone"></i>+52 55 3721 3386</a></li>
+                        <li><a class="c-link" href="#"><i class="fa-brands fa-instagram"></i>itshector.s</a></li>
+                        <li><a class="c-link" href="#"><i class="fa-brands fa-facebook"></i>arturo.s</a></li>
+                    </ul>
+                    <img class="little-logo-img" src="./images/logo-img.png" alt="logo">
+                </div>
+                <div class="middle-space"></div>
+                <div class="right-content">
+                    <h4 class="little-title">Bolsa de trabajo</h4>
+                    <p class="little-text">Si estás buscando formar parte de un equipo dinámico, comprometido y en constante crecimiento, aquí encontrarás vacantes actualizadas en distintas áreas del negocio. <br><br>En Harvey's valoramos la iniciativa, la responsabilidad y las ganas de aprender, por lo que buscamos personas que quieran desarrollarse profesionalmente junto a nosotros. Revisa las posiciones disponibles y da el siguiente paso en tu carrera.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="top-footer-section">
+            <div class="footer-links">
+                <a class="footer-link" href="#">Inicio</a>
+                <a class="footer-link" href="./pages/nosotros.html">Nosotros</a>
+                <a class="footer-link" href="./pages/menu.html">Menú</a>
+                <a class="footer-link" href="./pages/ubicaciones.html">Ubicaciones</a>
+                <a class="footer-link" href="#contacto">Contacto</a>
+            </div>
+        </div>
+        <div class="bottom-footer-section">
+            <p class="copyright-text">&copy; 2025 Derechos Reservados</p>
+            <a class="creator" href="#">Arturo Sandoval</a>
+        </div>
+    </footer>
+</body>
+</html>

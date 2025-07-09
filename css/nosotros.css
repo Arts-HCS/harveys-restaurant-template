@@ -1,0 +1,158 @@
+.main-image{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: 50% 55%;
+}
+
+.section.nosotros{
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.section.nosotros .aside-section{
+    flex: 0.2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+}
+
+.section.nosotros .aside-section .link-options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: sticky;
+    top: 150px;
+    padding-bottom: 20px;
+}
+
+.link-options .option-link{
+    color: var(--primary-black-color);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    opacity: 0.5;
+    transition: var(--transition);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.link-options .option-link.active{
+    opacity: 1;
+}
+
+.link-options .option-link i{
+    opacity: 0;
+    font-size: 0;
+    transition: var(--transition);
+    margin-left: 5px;
+}
+
+.link-options .option-link.active .active-arrow{
+    opacity: 1;
+    font-size: 18px;
+}
+
+.section.nosotros .content{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.section.nosotros .content .title-section{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section.nosotros .content .title-section .open-menu-button{
+    margin-left: 10px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: #e3e3e3;
+    font-size: 1.5rem;
+    border: 2px solid var(--primary-black-color);
+    transform: rotate(90deg);
+}
+
+.section.nosotros .content .inner-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.inner-content .left-content{
+    flex: 0.5;
+    padding: 0 20px;
+}
+
+.inner-content .left-content .content-text{
+    width: 100%;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.inner-content .right-content{
+    flex: 0.5;
+    padding: 0 20px;
+    align-self: stretch;
+}
+
+.inner-content .right-content .content-img{
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    position: sticky;
+    top: 150px;
+}
+
+.section.nosotros .hidden-content{
+    display: none;
+}
+
+#menu-active{
+    display: none;
+}
+
+.close-menu-button{
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    color: var(--primary-black-color);
+}
+
+.close-menu-button i{
+    font-size: 2rem;
+}
+
+#menu-active:checked ~ .aside-section{
+    left: 0;
+    box-shadow: 0 0 0 100vmax rgba(0,0,0,0.7);
+}
+
+#menu-active:checked ~ #overlayS{
+    height: 100%; width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.hide{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

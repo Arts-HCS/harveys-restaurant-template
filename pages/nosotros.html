@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nosotros">
+    <meta name="author" content="Héctor Arturo Sandoval Cervantes">
+    <title>Harvey's | Nosotros</title>
+
+    <link rel="icon" href="../images/logo-img.png"/>
+
+    <!-- Google Fonts link - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/nosotros.css">
+    <link rel="stylesheet" href="../css/media-queries.css">
+    <link rel="stylesheet" href="../css/interactions.css">
+
+    <script defer src="../js/nosotros.js"></script>
+    <script defer src="../js/header.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a class="logo" href="../index.html#"><img class="logo-img" src="../images/logo-img.png" alt="Logo image"><h1 class="logo-name">Harvey's</h1></a>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <label id="overlay" for="sidebar-active"></label>
+
+            <ul class="nav">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                <li class="nav-item"><a href="../index.html">Inicio</a></li>
+                <li class="nav-item"><a href="./menu.html">Nosotros</a></li>
+                <li class="nav-item"><a href="./menu.html">Menú</a></li>
+                <li class="nav-item"><a href="./ubicaciones.html">Ubicaciones</a></li>
+                <li class="nav-item"><a href="../index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <a class="whatsapp-btn" href="#"><img src="../images/whatsapp-logo.webp" alt=""></a>
+        <img class="main-image" src="../images/ingredients-img.webp" alt="Imagen del equipo">
+        <section class="section nosotros">
+            <input type="checkbox" id="menu-active">
+            <label id="overlayS" for="menu-active"></label>
+            <aside class="aside-section">
+                <ul class="link-options">
+                    <label for="menu-active" class="close-menu-button">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <li class="hide">Nosotros</li>
+                    <li><button class="option-link active" id="ingredientesBtn">Ingredientes <i class="fa-solid fa-arrow-right active-arrow"></i></button></li>
+                    <li><button class="option-link" id="inspiracionBtn">Inspiración <i class="fa-solid fa-arrow-right"></i></button></li>
+                    <li><button class="option-link" id="equipoBtn">Nuestro equipo<i class="fa-solid fa-arrow-right"></i></button></li>
+                </ul>
+            </aside>
+            <div id="ingSection" class="content">
+                <h3 class="title-section">Nuestros ingredientes 
+                    <label for="menu-active"><i class="open-menu-button fa-solid fa-angle-right"></i></label>
+                </h3>
+                <div class="inner-content">
+                    <div class="left-content">
+                        <p class="content-text">En Harvey's, la calidad comienza desde el origen. Cada ingrediente que usamos es cuidadosamente seleccionado para garantizar frescura, sabor y nutrición. Trabajamos con proveedores confiables y productos locales siempre que es posible, porque creemos que una buena comida solo puede nacer de buenos ingredientes. En cada platillo, se nota el compromiso de Harvey's con la excelencia. <br><br>Nuestro equipo de cocina transforma esos ingredientes de alta calidad en experiencias únicas. Desde recetas clásicas hasta creaciones originales, cada preparación refleja pasión, cuidado y atención al detalle. En Harvey's, no solo servimos comida: servimos momentos que se disfrutan con todos los sentidos.
+                        </p>
+                    </div>
+                    <div class="right-content">
+                        <img class="content-img" src="../images/our-ingredientes.webp" alt="Nuestros ingredientes">
+                    </div>
+                </div>
+            </div>
+            <div id="inspSection" class="content hidden-content">
+                <h3 class="title-section">Inspiración
+                    <label for="menu-active"><i class="open-menu-button fa-solid fa-angle-right"></i></label>
+                </h3>
+                <div class="inner-content">
+                    <div class="left-content">
+                        <p class="content-text">La inspiración de Harvey's nace del deseo de crear un lugar donde la comida cuente una historia. Nos inspiran los sabores que evocan recuerdos, las reuniones en torno a la mesa y el arte de cocinar con el corazón. Cada rincón del restaurante, cada receta y cada sonrisa que ofrecemos está pensada para transmitir esa esencia: una mezcla de tradición, calidez y autenticidad que hace de Harvey's un lugar para volver.
+                        <br><br>
+                        Nuestra inspiración también proviene de las pequeñas cosas: el aroma del pan recién horneado, una receta heredada, una conversación espontánea entre amigos. Queremos que cada visita a Harvey's sea más que una comida: una experiencia que despierte emociones, conecte generaciones y deje una huella en la memoria. Creemos que cuando algo se hace con amor, se nota… y eso es lo que guía todo lo que hacemos.
+                        </p>
+                    </div>
+                    <div class="right-content">
+                        <img class="content-img" src="../images/inspiracion.webp" alt="Inspiración">
+                    </div>
+                </div>
+            </div>
+            <div id="equipoSection" class="content hidden-content">
+                <h3 class="title-section">Nuestro equipo
+                    <label for="menu-active"><i class="open-menu-button fa-solid fa-angle-right"></i></label>
+                </h3>
+                <div class="inner-content">
+                    <div class="left-content">
+                        <p class="content-text">En Harvey's, nuestro equipo es el corazón del restaurante. Cada miembro, desde la cocina hasta el servicio en mesa, aporta talento, dedicación y un profundo compromiso con la excelencia. Nos une la pasión por brindar una experiencia memorable, donde cada detalle cuenta. Trabajamos en armonía, como una familia, valorando la colaboración, el respeto y el esfuerzo constante. Gracias a su profesionalismo y calidez, Harvey's no solo ofrece buena comida, sino también un ambiente acogedor y lleno de atención genuina.
+                        <br><br>
+                        Cada día, nuestro personal se esfuerza por superar expectativas, aprendiendo y creciendo juntos para mantener los más altos estándares. Creemos que un gran equipo no solo se forma con habilidades, sino también con actitud y entrega. En Harvey's, celebramos el trabajo en conjunto, porque sabemos que detrás de cada platillo bien servido hay personas comprometidas que lo hacen posible.
+                        </p>
+                    </div>
+                    <div class="right-content">
+                        <img class="content-img" src="../images/equipo.webp" alt="Nuestro equipo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="footer">
+        <div class="top-footer-section">
+            <div class="footer-links">
+                <a class="footer-link" href="../index.html">Inicio</a>
+                <a class="footer-link" href="#">Nosotros</a>
+                <a class="footer-link" href="./menu.html">Menú</a>
+                <a class="footer-link" href="./ubicaciones.html">Ubicaciones</a>
+                <a class="footer-link" href="../index.html#contacto">Contacto</a>
+            </div>
+        </div>
+        <div class="bottom-footer-section">
+            <p class="copyright-text">&copy; 2025 Derechos Reservados</p>
+            <a class="creator" href="#">Arturo Sandoval</a>
+        </div>
+    </footer>
+    
+</body>
+</html>

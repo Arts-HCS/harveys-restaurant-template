@@ -1,0 +1,152 @@
+.navbar .logo .logo-name::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #48e;
+    border-radius: 10px;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.navbar .logo:hover .logo-name::before{
+    transform: scaleX(1);
+}
+
+.navbar .logo:hover .logo-name{
+    color: var(--primary-white-color);
+}
+
+.navbar .nav a:hover{
+    background-color: rgb(68, 136, 238);
+    padding: 8px 25px;
+    border-radius: 30px;
+    color: var(--primary-white-color);
+    box-shadow: 2px 15px 10px rgba(68, 136, 238, 0.435);
+}
+
+
+.swiper .swiper-button-prev::after, .swiper-button-next::after{
+    background-color: var(--primary-black-color);
+    color: #fefefe;
+    border: 3px solid var(--primary-black-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    transition: var(--transition);
+}
+
+.swiper .swiper-button-prev:hover::after, .swiper-button-next:hover::after{
+    background-color: #48e;
+    color: #ffffff;
+}
+
+.swiper .swiper-button-prev:active::after, .swiper-button-next:active::after{
+    background-color: #fff;
+    color: #48e;
+}
+
+.swiper .swiper-button-prev::after{
+    margin-left: 50px;
+}
+
+.swiper .swiper-button-next::after{
+    margin-right: 50px;
+}
+
+.hero-bottom-ops .hero-option::before{
+    content: "";
+    transition: var(--transition);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 100%;
+    background-color: #48e;
+    z-index: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.hero-bottom-ops .hero-option:hover::before{
+    transform: scaleX(1);
+}
+
+.menu-btn:hover {
+    box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px);
+}
+
+.menu-btn:hover .fa-utensils {
+    transform: translateY(0);
+    opacity: 1;
+    font-size: 20px;
+}
+
+.location-buttons .loc-btn:hover{
+    width: 120px;
+}
+
+.location-buttons .loc-btn:hover i{
+    font-size: 28px;
+}
+
+.footer-links .footer-link::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 30px;
+    background-color: var(--primary-black-color);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: var(--transition);
+}
+
+.footer-links .footer-link:hover::before{
+    transform: scaleX(1);
+}
+
+.footer .bottom-footer-section .creator:hover{
+    transform: scale(1.1);
+    color: #48e;
+}
+
+.whatsapp-btn:hover{
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 15px rgba(0,0,0,0.1));
+}
+
+.link-options .option-link:hover{
+    opacity: 1;
+}
+
+.link-options .option-link:hover i{
+    opacity: 1;
+    font-size: 18px;
+}
+
+.u-card .card-figure .figure-img:hover{
+    transform: scale(1.1);
+}
+
+.u-card .show-map-btn:hover{
+    background-color: var(--primary-black-color);
+    color: #fefdef;
+    font-weight: 400;
+}
+
+.map-frame .escape:hover{
+    transform: rotate(90deg);
+}
+
+.food-cards .dish:hover{
+    transform: scale(1.05);
+    box-shadow: none;
+}
