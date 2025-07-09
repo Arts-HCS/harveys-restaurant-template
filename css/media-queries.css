@@ -577,6 +577,12 @@
     .open-menu-button{
         display: block;
     }
+    .close-menu-button{
+        display: block;
+    }
+    .hide{
+        display: block;
+    }
     .section.nosotros .aside-section{
         z-index: 1000;
         position: absolute;

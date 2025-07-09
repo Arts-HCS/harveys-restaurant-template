@@ -128,10 +128,15 @@
 }
 
 .close-menu-button{
+    display: none;
     position: absolute;
     top: -35px;
     right: -35px;
     color: var(--primary-black-color);
+}
+
+.open-menu-button{
+    display: none;
 }
 
 .close-menu-button i{
@@ -152,6 +157,7 @@
 }
 
 .hide{
+    display: none;
     font-size: 1.7rem;
     font-weight: 600;
     margin-bottom: 20px;
