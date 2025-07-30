@@ -39,10 +39,10 @@ A fully functional and responsive restaurant website template designed for moder
 
 ## Built with
 
--HTML5
--CSS3 (Flexbox, Grid, Media Queries)
--JavaScript (DOM Manipulation, Event Handling)
--Font Awesome
--Google Fonts
--Swiper.js (carousel)
+- HTML5
+- CSS3 (Flexbox, Grid, Media Queries)
+- JavaScript (DOM Manipulation, Event Handling)
+- Font Awesome
+- Google Fonts
+- Swiper.js (carousel)
 
