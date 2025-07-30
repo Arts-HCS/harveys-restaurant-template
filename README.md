@@ -17,7 +17,7 @@ A fully functional and responsive restaurant website template designed for moder
 ## Demo
 
 > This is a sample project and not linked to a real business.  
-> You can see it in action locally by cloning the repo and opening `index.html` in your browser or following the Github pages link: https://arts-hcs.github.io/BusinessTemplate/index.html
+> You can see it in action locally by cloning the repo and opening `index.html` in your browser or following the Github pages link: https://arts-hcs.github.io/harveys-restaurant-template/
 
 ---
 
